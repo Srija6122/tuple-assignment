@@ -1,0 +1,30 @@
+# Create a list containing the names of 5 different cities
+cities = ["Hyderabad", "Mumbai", "Delhi", "Chennai", "Bangalore"]
+
+# Use indexing to access and print the city at the middle index
+middle_index = len(cities) // 2
+print("City at middle index:", cities[middle_index])
+
+# Use slicing to extract the first 3 cities
+first_three = cities[:3]
+print("First 3 cities:", first_three)
+
+# Sort the list in ascending order
+cities.sort()
+print("Sorted cities:", cities)
+
+# Append a new city to the end of the list
+cities.append("Kolkata")
+print("After appending a city:", cities)
+
+# Remove the first city from the list
+cities.pop(0)
+print("After removing the first city:", cities)
+
+# Function that returns the length of a list of cities
+def get_city_count(city_list):
+    return len(city_list)
+
+# Test the function with the list of cities
+result = get_city_count(cities)
+print("Length of the city list:", result)

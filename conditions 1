@@ -1,0 +1,47 @@
+# n=10
+# if n%2==0:
+#     print('even')
+# else:
+#    print('odd')
+
+
+# n=int(input("Enter number:"))
+# n=int(n)
+
+
+# a=10
+# b=20
+# if a>b: 
+#     print('max value:,a')
+# else:    
+#     print('max value:,b')
+
+
+# a=10
+# b=20 
+# c=3
+# if a>b and a>c:
+#     print('max value:')
+
+n=10
+if n%3 == 0 and n%5 == 0:
+    print(n)
+else:
+    print("not divisible by 3 and 5")          
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+frt=["apple","banana","cherry"]
+len(frt)
+for fruit in frt:
+    print(fruit)
