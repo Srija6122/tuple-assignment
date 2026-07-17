@@ -1,18 +1,17 @@
 # Checkerboard Pattern using Nested For Loops
-# The outer loop controls the rows.
-# The inner loop controls the columns.
-# The pattern starts with '*' in the top-left corner
-# and alternates between '*' and '.'.
 
-# Outer loop for rows
+# The outer loop controls the rows.
 for row in range(5):
-    # Inner loop for columns
+
+    # The inner loop controls the columns.
     for col in range(5):
-        # Print '*' when the sum of row and column is even,
+
+        # Print '*' when row + column is even,
         # otherwise print '.'
         if (row + col) % 2 == 0:
             print("*", end=" ")
         else:
             print(".", end=" ")
-    # Move to the next line after each row
+
+    # Move to the next row
     print()
