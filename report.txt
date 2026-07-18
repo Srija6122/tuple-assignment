@@ -1,0 +1,16 @@
+Pattern Generation Assignment Report
+
+Approach:
+I used nested for loops to generate three different patterns:
+1. Square pattern using two loops.
+2. Right-angled triangle using nested loops with numbers.
+3. Pyramid pattern using spaces and stars.
+
+Challenges:
+The pyramid pattern required careful handling of spaces and stars for proper alignment.
+
+Solution:
+I used one loop for spaces and another loop for stars to create the correct pyramid shape.
+
+Testing:
+I tested the program with different input sizes such as 3, 5, and 7 to verify that all patterns were generated correctly.
