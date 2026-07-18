@@ -1,0 +1,22 @@
+String Methods Assignment Report
+
+Methods Used:
+
+1. upper()
+   Converts all characters in a string to uppercase.
+
+2. lower()
+   Converts all characters in a string to lowercase.
+
+3. split()
+   Splits a string into a list using a specified delimiter.
+
+4. replace()
+   Replaces one substring with another substring.
+
+5. find()
+   Finds the index of a character or substring.
+   Returns -1 if the substring is not found.
+
+Error Handling:
+The program uses a try-except block to handle unexpected errors and provide user-friendly messages.
