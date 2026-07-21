@@ -1,16 +1,19 @@
-# n=11
-# count=0
-# for x in range(n,n+1):
-#     if n%x==0:
-#         count=count+1
-# if count==0:
-#     print("Prime")
+# # n=11
+# # count=0
+# # for x in range(n,n+1):
+# #     if n%x==0:
+# #         count=count+1
+# # if count==0:
+# #     print("Prime")
+# # else:
+# #     print("Not Prime")
+
+
+# n=10
+# if n%2==0:
+#     print("even")
 # else:
-#     print("Not Prime")
+#     print("odd")
 
 
-n=10
-if n%2==0:
-    print("even")
-else:
-    print("odd")
+
